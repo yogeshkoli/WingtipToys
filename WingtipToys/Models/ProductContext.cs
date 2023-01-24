@@ -4,7 +4,7 @@ namespace WingtipToys.Models
 {
     public class ProductContext : DbContext
     {
-        protected ProductContext() : base("WingtipToys")
+        public ProductContext() : base("WingtipToys")
         {
         }
 
